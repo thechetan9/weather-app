@@ -1,4 +1,5 @@
 body {
+  background-color: #487e90 !important;
   width: auto;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
@@ -40,13 +41,14 @@ p {
   font-weight: 300;
   width: 100%;
   font-size: 25px;
-  border: 0px;
+  border: 2px;
   outline: none;
   width: 100%;
+  border-radius: 5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #4b545f;
+  color: #a4caf8;
   background: #fff;
   font-family: Open Sans, Verdana;
   padding: 10px 15px;
@@ -59,13 +61,16 @@ p {
 }
 
 .ghost-input:focus {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 5px solid #ddd;
 }
 
 .ghost-button {
   background-color: transparent;
   border: 2px solid #ddd;
+  border-radius: 5px;
   padding: 10px 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
   width: 100%;
   min-width: 350px;
   -webkit-transition: all 0.1s ease-in-out;
